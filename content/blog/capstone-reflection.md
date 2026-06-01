@@ -1,5 +1,5 @@
 ---
-title: The Psychology of Color in UI Design
+title: Capstone Reflection
 description: Exploring how strategic color choices can influence user behavior,
   evoke emotions, and enhance the overall user experience of digital products.
 date: 2025-03-15

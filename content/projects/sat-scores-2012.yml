@@ -1,0 +1,5 @@
+title: 2012 NYC SAT Scores
+description: I used an API from New York City Open Data to display the average SAT scores by section (Critical Reading, Writing, Math) in 2012 for high schools in NYC. The site allows the user to filter the results based on borough (which I did by using the .includes array filter on the DBN) and based on scores. The user can filter based on math, critical reading, writing, or all three at once. Looking back, I would have made the filtering work more like checkboxes (i.e. the user can filter schools from Brooklyn and Queens, with math scores above 300, all at once) and would have made the form more accessible for the user. TailwindCSS and Vite were used to make this project.
+url: "https://nycsat2012.netlify.app/"
+tags: ["TailwindCSS", "Vite", "JavaScript"]
+date: "2024"
