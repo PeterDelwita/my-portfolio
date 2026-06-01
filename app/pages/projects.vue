@@ -44,7 +44,7 @@ defineOgImage('Portfolio', { title, description })
       <template #links>
         <div
           v-if="page.links"
-          class="flex items-center gap-2"
+          class="flex items-start gap-2"
         >
           <UButton
             :label="page.links[0]?.label"
