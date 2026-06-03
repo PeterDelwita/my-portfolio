@@ -1,30 +1,16 @@
 ---
 title: Capstone Reflection
-description: Exploring how strategic color choices can influence user behavior,
-  evoke emotions, and enhance the overall user experience of digital products.
-date: 2026-06-01
+description: Reflection on my area of interest, the past 4 years as of this writing, and what I might want to do in the future.
+date: 2026-06-02
 image: https://images.pexels.com/photos/40799/paper-colorful-color-loose-40799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-minRead: 5
 author:
-  name: Emma Thompson
+  name: Peter Delwita
 ---
 
-Color is one of the most powerful tools in my design arsenal, yet I find it's often reduced to mere aesthetics or brand guidelines. After conducting a series of A/B tests for the Wavelength music app redesign, I've gathered some fascinating insights about how color psychology directly impacts user behavior.
+I think the biggest area of growth for me in computer science was learning how to use different frameworks (Vite -> Vue -> Nuxt) and learning to use different development tools (such as TailwindCSS) to my advantage as a programmer. Vite helped me get into Vue and was like an introduction to frameworks, Vue made coding more convenient thanks to its single-file components (HTML, CSS, and JS in one file) and since it allowed my sites to have more than one page, and Nuxt made it even more convenient by removing the need for imports in most places and by being designed to be type-safe (regarding TypeScript). TailwindCSS made web design easier and more intuitive. These tools have made coding more convenient for me, which is especially important for building applications on a larger scale.
 
-When we initially launched the app, we used a vibrant purple as our primary action color. The color looked great with our brand palette, but our conversion metrics were underwhelming. On a hunch, I proposed testing different primary colors while keeping all other elements identical.
+What I want to do in the future is to try experimenting with other frameworks (e.g. React) and brush up on my coding skills (especially over the summer). React is a very popular framework and I want to try to at least grasp the basics since I think it sounds interesting. I also want to continue working on my interpersonal skills (particularly communication) since those are going to be extremely important when I join the workforce; a lot of work in computer science is done in teams, and I want to get good at doing that since that would help me grow tthe most as a person and as a programmer. I plan on doing CS as a career and as a major in college, so that has been a major factor in my plans for the near future. I'm also a bit curious about C as well, and want to learn about it at least a little.
 
-The results were striking: switching to a specific shade of blue increased our call-to-action conversion by 34%. Even more interesting was how different user segments responded to color variations—younger users engaged more with vibrant tones, while our 35+ demographic showed stronger preference for more subdued colors.
+Speaking of interpersonal skills, I can say, without a doubt, that programming while part of a team throughout my senior year of high school has been the most important experience for me over the past four years and what I am most proud of; doing so allowed me to improve my communication skills and strengthened my ability to work in a group. Asking for help has gotten easier within the past year, as has collaboration and using feedback to improve. 
 
-Beyond conversion metrics, I discovered that color significantly affected how users perceived waiting times. By implementing a softer color progression in our loading animations, users reported that the app felt faster, even though the actual loading times remained unchanged.
-
-I've since developed a framework for color decision-making that goes beyond aesthetics:
-
-1. Consider the emotional response you want to evoke
-2. Test color choices with your specific user demographics
-3. Use color to create visual hierarchies that guide users naturally
-4. Consider cultural associations of colors for international audiences
-5. Ensure sufficient contrast for readability and accessibility
-
-The most valuable lesson I've learned is that there are no universal "right" colors—only colors that effectively communicate your message and guide users toward their goals within your specific context.
-
-Next time you're selecting a color palette, think beyond what looks good and consider what your colors are actually saying to your users.
+In sunmmary, I find that honing my interpersonal skills and experimenting with different programming tools is going to be highly important for me as I develop as a programmer, and I am proudest of working in a team for bringing me closer to that.

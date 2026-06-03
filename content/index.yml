@@ -1,61 +1,21 @@
 seo:
   title: "Peter Delwita - Portfolio"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "k"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  description: "Hello! I am a CS student. This is my personal portfolio."
+title: "Peter Delwita"
+description: "Welcome! I am a CS student. Here, you will find some of my personal projects and some blog posts (use the nav bar at the top)."
 hero:
   links:
     - label: "Github Profile"
       to: https://github.com/PeterDelwita
       color: "neutral"
-  images:
-    - src: /hero/random-1.avif
-      alt: Random Image 1
-    - src: /hero/random-2.avif
-      alt: Random Image 2
-    - src: /hero/random-3.avif
-      alt: Random Image 3
-    - src: /hero/random-4.avif
-      alt: Random Image 4
-    - src: /hero/random-5.avif
-      alt: Random Image 5
-    - src: /hero/random-6.avif
-      alt: Random Image 6
-    - src: /hero/random-7.avif
-      alt: Random Image 7
-    - src: /hero/random-8.avif
-      alt: Random Image 8
-    - src: /hero/random-9.avif
-      alt: Random Image 9
 about:
-  title: "About Me"
+  title: "Technical Skills"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
-experience:
-  title: Work Experience
-  items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
-      company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
-        color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
-      company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
-        color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
-      company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
-        color: "#5E6AD2"
+    Languages: I started out using JavaScript, which I used for the majority of my AP Computer Science Principles (AP CSP) course before I switched to TypeScript at the end of the course. TypeScript makes it very easy to catch errors and its types and interfaces make it easy to describe data, so I've used it ever since.
+    
+    Frameworks: After I learned the basics of JavaScript, Vite served as my introduction to web development frameworks since a lot of them build onto Vite, and I learned how to use it as part of AP CSP before we transitioned to Vue. Vue, unlike Vite, allows for multiple pages in one application due to its router system and comes with single-file components (i.e. HTML, CSS, and JS in one file). Components can also be used anywhere in a Vue page, which makes them very convenient. I then switched to Nuxt come senior year, which is designed to be type-safe and takes care of importing for you. On top of that, Nuxt handles routing automatically, as far as I know.
+
+    Tools: Visual Studio Code is my preferred coding editor, and I've used it ever since I started programming. I started using TailwindCSS a few months after learning JavaScript. TailwindCSS is much easier to work with than vanilla CSS since it allows you to write the CSS in the HTML class names, preventing you from having to leave your HTML, and I find it highly intuitive. I tend to use DaisyUI with it as well since I find the semantic class names and components very useful. I use Node.js (npm) as my package manager.
 blog:
-  title: "Latest Articles"
-  description: "Some of my recent thoughts"
+  title: "Blog Posts"
+  description: "These consist of thoughts on my development and trajectory."

@@ -29,6 +29,12 @@ npm create nuxt@latest -- -t ui/portfolio
 
 Make sure to install the dependencies:
 
+npm:
+```bash
+npm install
+```
+
+pnpm:
 ```bash
 pnpm install
 ```
@@ -37,6 +43,12 @@ pnpm install
 
 Start the development server on `http://localhost:3000`:
 
+npm:
+```bash
+npm run dev
+```
+
+pnpm:
 ```bash
 pnpm dev
 ```
@@ -45,12 +57,24 @@ pnpm dev
 
 Build the application for production:
 
+npm:
+```bash
+npm run build
+```
+
+pnpm:
 ```bash
 pnpm build
 ```
 
 Locally preview production build:
 
+npm:
+```bash
+npm run preview
+```
+
+pnpm:
 ```bash
 pnpm preview
 ```
