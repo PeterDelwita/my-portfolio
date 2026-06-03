@@ -2,7 +2,7 @@
 title: "Growth Milestones"
 description: Reflection on one of my school projects, how it worked, and why its core concepts matter.
 date: 2026-06-01
-image: https://images.pexels.com/photos/1050312/pexels-photo-1050312.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fprimaryleap.co.uk%2Fimages%2Fwikileap%2Fpost_levels%2Fthumb_orignal%2F7d632b6ae1643f7a5baa5c19209b27b4cbcce4991S.jpg&f=1&nofb=1&ipt=5d866aea64ed42cad119c79334a3fbcb1904a5d366978a5403be3ade16ef1e36
 author:
   name: Peter Delwita
 ---
@@ -150,3 +150,5 @@ Each time one of the buttons is pressed, cards are filtered based on the new fil
 The importance of these concepts was what clicked for me as I worked on this project. APIs help make projects more scalable and efficient since they help save development time and because they allow for data to be easily communicated between systems. If you are programming something relying on backend development (such as a social media site), pulling from an API will be of utmost importance. Many websites that offer services do this as well. Building a huge data structure on your own is very difficult, but it's much easier to pull from an API to achieve your ends when designing your website.
 
 It also matters how we work with APIs, and array methods can make this particularly easy in some areas; if we only want certain elements from the API based on certain conditions, we can use .filter to do that in few lines of code. If we want to iterate through an API, we can use .forEach. I learned how useful that was when I used it to manage the data from the API I was using, making it easy to accomplish the task of putting cards on the screen based on certain conditions, which would have been much more difficult without them. Likewise, it would have been difficult to create an API on my own just for this project, but it was much easier using one from NYC Open Data.
+
+In short, APIs make it much easier to create scalable and efficient applications, and array methods make it easy to handle huge data sets, and are thus useful for working with APIs. Both of these matter when it comes to building large applications. That was what I learned when I did this project.
