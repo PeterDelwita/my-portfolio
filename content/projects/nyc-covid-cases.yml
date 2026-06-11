@@ -2,4 +2,4 @@ title: NYC Covid Cases and Deaths
 description: This project was designed to model the COVID-19 cases, deaths, and hospitalizations in NYC, and would be useful for someone looking into COVID-19 statistics. ChartJS, an open-source JavaScript library, was used to model the data for each borough. Like the SAT project, I pulled from an API from NYC Open Data to get the data for the charts. There are three buttons the user can press - Cases, Deaths, and Hospitalizations. Pressing a button shows the corresponding data. To make this project work, I had to make use of Vue's components and router feature. I made separate components for each chart for me to call in the Vue pages I would use them in, and I had to add the Vue pages to the router in order for them to be accessible. If I did this today, I would have made the charts much smaller and I would have added buttons that let the user see the cases, deaths, and hospitalizations all at once for a given borough.
 url: "https://nyccovidcasesdeaths.netlify.app/"
 tags: ["Vue", "TailwindCSS", "ChartJS"]
-date: "2025"
+date: "2025-03-27"

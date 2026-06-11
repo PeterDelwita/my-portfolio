@@ -2,4 +2,4 @@ title: Dice Game
 description: This was a website I created as part of my Create Task for the AP Computer Science Principles exam. Three dice are rolled (0 to 6 each, for a sum ranging from 0 to 18) and the user bets on whether the sum will be above, below, or exactly the same as the number he has betted. A card with the player's results is generated below the dice each time the player rolls them, stating the conditions of the bet and whether he has won or lost. The core problem was to create and run an algorithm (sequencing, selection, and iteration) and to create and add data to a list (game history). Vite and Tailwind were used to build this site, and Tailwind in particular was extremely helpful when doing the web design. This site would be useful to someone looking to play a web game based on chance.
 url: "https://dicenumbersgame.netlify.app/"
 tags: ["Vite", "JavaScript", "TailwindCSS"]
-date: "2024"
+date: "2025-01-12"

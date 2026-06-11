@@ -1,11 +1,17 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
 
-useAppConfig()
-
-defineProps<{
+const props = defineProps<{
   page: IndexCollectionItem
 }>()
+
+const { refresh } = await useAsyncData('index', () => {
+  return queryCollection('index').first()
+})
+
+onMounted(() => {
+  refresh()
+})
 </script>
 
 <template>
@@ -16,89 +22,40 @@ defineProps<{
       links: 'mt-4 flex-col justify-center items-center'
     }"
   >
-    <template #headline>
-      <Motion
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.1
-        }"
-      />
-    </template>
-
     <template #title>
       <Motion
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.1
-        }"
+        :key="props.page.title"
+        :initial="{ scale: 1.1, opacity: 0, filter: 'blur(20px)' }"
+        :animate="{ scale: 1, opacity: 1, filter: 'blur(0px)' }"
+        :transition="{ duration: 0.6, delay: 0.1 }"
       >
-        {{ page.title }}
+        {{ props.page.title }}
       </Motion>
     </template>
 
     <template #description>
       <Motion
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.3
-        }"
+        :key="props.page.description"
+        :initial="{ scale: 1.1, opacity: 0, filter: 'blur(20px)' }"
+        :animate="{ scale: 1, opacity: 1, filter: 'blur(0px)' }"
+        :transition="{ duration: 0.6, delay: 0.3 }"
       >
-        {{ page.description }}
+        {{ props.page.description }}
       </Motion>
     </template>
 
     <template #links>
       <Motion
-        :initial="{
-          scale: 1.1,
-          opacity: 0,
-          filter: 'blur(20px)'
-        }"
-        :animate="{
-          scale: 1,
-          opacity: 1,
-          filter: 'blur(0px)'
-        }"
-        :transition="{
-          duration: 0.6,
-          delay: 0.5
-        }"
+        :key="JSON.stringify(props.page.hero?.links)"
+        :initial="{ scale: 1.1, opacity: 0, filter: 'blur(20px)' }"
+        :animate="{ scale: 1, opacity: 1, filter: 'blur(0px)' }"
+        :transition="{ duration: 0.6, delay: 0.5 }"
       >
         <div
-          v-if="page.hero.links"
+          v-if="props.page.hero?.links?.length"
           class="flex items-center gap-2"
         >
-          <UButton v-bind="page.hero.links[0]" />
+          <UButton v-bind="props.page.hero.links[0]" />
         </div>
       </Motion>
     </template>

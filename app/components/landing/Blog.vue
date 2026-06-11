@@ -1,22 +1,26 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
 
-defineProps<{
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+const props = defineProps<{
   page: IndexCollectionItem
 }>()
 
-const { data: posts } = await useAsyncData('index-blogs', () =>
-  queryCollection('blog').order('date', 'DESC').limit(3).all()
+const { data: posts, refresh } = await useAsyncData(
+  'index-blogs',
+  () => queryCollection('blog').order('date', 'DESC').limit(3).all()
 )
-if (!posts.value) {
-  throw createError({ statusCode: 404, statusMessage: 'blogs posts not found', fatal: true })
-}
+
+// ensures fresh data when coming back via client navigation
+onMounted(() => {
+  refresh()
+})
 </script>
 
 <template>
   <UPageSection
-    :title="page.blog.title"
-    :description="page.blog.description"
+    :title="page.blog?.title"
+    :description="page.blog?.description"
     :ui="{
       container: 'px-0 pt-0! sm:gap-6 lg:gap-8',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
@@ -28,8 +32,8 @@ if (!posts.value) {
       class="gap-4 lg:gap-y-4"
     >
       <UBlogPost
-        v-for="(post, index) in posts"
-        :key="index"
+        v-for="post in posts || []"
+        :key="post.path"
         orientation="horizontal"
         variant="naked"
         v-bind="post"

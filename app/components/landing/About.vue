@@ -1,15 +1,24 @@
 <script setup lang="ts">
 import type { IndexCollectionItem } from '@nuxt/content'
 
-defineProps<{
+const props = defineProps<{
   page: IndexCollectionItem
 }>()
+
+const { refresh } = await useAsyncData('index', () => {
+  return queryCollection('index').first()
+})
+
+onMounted(() => {
+  refresh()
+})
 </script>
 
 <template>
   <UPageSection
-    :title="page.about.title"
-    :description="page.about.description"
+    :key="JSON.stringify(props.page.about)"
+    :title="props.page.about?.title"
+    :description="props.page.about?.description"
     :ui="{
       container: 'p-0!',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
@@ -17,7 +26,3 @@ defineProps<{
     }"
   />
 </template>
-
-<style scoped>
-
-</style>
