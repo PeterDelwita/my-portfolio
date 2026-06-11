@@ -2,7 +2,7 @@
 title: Capstone Reflection
 description: Reflection on my area of interest, the past 4 years as of this writing, and what I might want to do in the future.
 date: 2026-06-02
-image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.computersciencedegreehub.com%2Fwp-content%2Fuploads%2F2023%2F07%2Fshutterstock_2284126663-scaled.jpg&f=1&nofb=1&ipt=ddb2a8bcd845f5761f94e1764a777112e9d15e4bde179f8f7827dc726fdc8c7c
+image: https://upload.wikimedia.org/wikipedia/commons/e/e6/Coding_I.jpg
 author:
   name: Peter Delwita
 ---

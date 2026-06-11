@@ -2,7 +2,7 @@
 title: "Growth Milestones"
 description: Reflection on one of my school projects, how it worked, and why its core concepts matter.
 date: 2026-06-01
-image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fprimaryleap.co.uk%2Fimages%2Fwikileap%2Fpost_levels%2Fthumb_orignal%2F7d632b6ae1643f7a5baa5c19209b27b4cbcce4991S.jpg&f=1&nofb=1&ipt=5d866aea64ed42cad119c79334a3fbcb1904a5d366978a5403be3ade16ef1e36
+image: https://upload.wikimedia.org/wikipedia/commons/7/70/Apis_mellifera_-_Brassica_napus_-_Valingu.jpg
 author:
   name: Peter Delwita
 ---

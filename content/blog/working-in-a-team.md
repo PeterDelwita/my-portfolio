@@ -2,7 +2,7 @@
 title: What I learned from working in a team
 description: Lessons about teamwork and communication I learned, shown through challenges I faced and unique takeaways.
 date: 2026-06-02
-image: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F011%2F221%2F415%2Fnon_2x%2Fteam-building-team-collaboration-for-business-idea-teamwork-to-solve-problem-strategy-plan-to-work-together-for-success-concept-businessmen-and-businesswomen-team-up-to-solve-lightbulb-jigsaw-vector.jpg&f=1&nofb=1&ipt=f7f9fea19469adeb3ef89ecaa2404f77ca1ed27b2be320d044e3dc6c00f282c8
+image: https://upload.wikimedia.org/wikipedia/commons/f/ff/Oil_and_electric_lamp.jpg
 author:
   name: Peter Delwita
 ---
