@@ -1,8 +1,8 @@
 ---
-title: Capstone Reflection
+title: A brief reflection on my past 4 years
 description: Reflection on my area of interest, the past 4 years as of this writing, and what I might want to do in the future.
 date: 2026-06-02
-image: https://upload.wikimedia.org/wikipedia/commons/e/e6/Coding_I.jpg
+image: "../public/hero/Coding_I.jpg"
 author:
   name: Peter Delwita
 ---
@@ -11,6 +11,10 @@ I think the biggest area of growth for me in computer science was learning how t
 
 What I want to do in the future is to try experimenting with other frameworks (e.g. React) and brush up on my coding skills (especially over the summer). React is a very popular framework and I want to try to at least grasp the basics since I think it sounds interesting. I also want to continue working on my interpersonal skills (particularly communication) since those are going to be extremely important when I join the workforce; a lot of work in computer science is done in teams, and I want to get good at doing that since that would help me grow tthe most as a person and as a programmer. I plan on doing CS as a career and as a major in college, so that has been a major factor in my plans for the near future. I'm also a bit curious about C as well, and want to learn about it at least a little.
 
+I spent my first year of computer science studying Python (for the spring semester), and due to a resource room class I had in my sophomore year (this was in high school), there was a one-year-gap between my first and second year of studying computer science. My second year of CS onward revolved around web development. I started with HTML, CSS, and JavaScript before moving on to plugins (e.g. TailwindCSS) and new frameworks (Vite, Vue). I eventually started using Nuxt during my senior year. If I had a do-over of my entire high schoole experience, one thing I'd do differently would be to give up resource room a year early so that I could dedicate an extra year to studying computer science.
+
 Speaking of interpersonal skills, I can say, without a doubt, that programming while part of a team throughout my senior year of high school has been the most important experience for me over the past four years and what I am most proud of; doing so allowed me to improve my communication skills and strengthened my ability to work in a group. Asking for help has gotten easier within the past year, as has collaboration and using feedback to improve. 
+
+On that note, I want to spend my time in college developing my interpersonal skills. Asking for help and reaching out to people, for example, are things I want to do more often and get better at since those are necessary communication skills. I also want to think about double majors I could pursue on top of computer science; some examples I have in mind are finance, information technology, and computer engineering. Having a niche is very important (especially when finding a job since you want to stand out), which is my rationale for pursuing a double major.
 
 In sunmmary, I find that honing my interpersonal skills and experimenting with different programming tools is going to be highly important for me as I develop as a programmer, and I am proudest of working in a team for bringing me closer to that.

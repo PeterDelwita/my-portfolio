@@ -28,8 +28,13 @@ useSeoMeta({
 
 <template>
   <UPage v-if="page">
-    <LandingHero :page="page" />
-    <UPageSection :ui="{ container: 'flex' }">
+    <div class="py-8 sm:py-12">
+      <LandingHero
+        :page="page"
+        class="min-h-0 h-auto py-8 sm:py-12"
+      />
+    </div>
+    <UPageSection :ui="{ root: 'py-0!', container: 'flex' }">
       <LandingAbout :page="page" />
     </UPageSection>
     <LandingBlog

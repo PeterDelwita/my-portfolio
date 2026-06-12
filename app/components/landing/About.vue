@@ -20,9 +20,10 @@ onMounted(() => {
     :title="props.page.about?.title"
     :description="props.page.about?.description"
     :ui="{
+      root: 'py-0!',
       container: 'p-0!',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'text-left mt-3 whitespace-pre-line text-sm sm:text-md lg:text-sm text-muted mb-2'
+      description: 'text-left mt-1 whitespace-pre-line text-sm sm:text-md lg:text-sm text-muted mb-1'
     }"
   />
 </template>

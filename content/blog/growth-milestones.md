@@ -1,8 +1,8 @@
 ---
-title: "Growth Milestones"
+title: "Reflecting on My API Project"
 description: Reflection on one of my school projects, how it worked, and why its core concepts matter.
 date: 2026-06-01
-image: https://upload.wikimedia.org/wikipedia/commons/7/70/Apis_mellifera_-_Brassica_napus_-_Valingu.jpg
+image: "../public/hero/Bee_on_flower.jpg"
 author:
   name: Peter Delwita
 ---

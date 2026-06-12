@@ -16,10 +16,15 @@ onMounted(() => {
 
 <template>
   <UPageHero
+    class="min-h-0! h-auto!"
     :ui="{
+      root: 'py-0 sm:py-0 min-h-0',
+      wrapper: 'min-h-0 !h-auto', // override internal wrapper height
+      container: 'py-0',
       headline: 'flex items-center justify-center',
       title: 'text-shadow-md max-w-lg mx-auto',
-      links: 'mt-4 flex-col justify-center items-center'
+      description: 'max-w-2xl mx-auto',
+      links: 'flex-col justify-center items-center'
     }"
   >
     <template #title>
