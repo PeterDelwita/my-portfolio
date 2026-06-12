@@ -2,7 +2,6 @@
 title: A brief reflection on my past 4 years
 description: Reflection on my area of interest, the past 4 years as of this writing, and what I might want to do in the future.
 date: 2026-06-02
-image: "../public/hero/Coding_I.jpg"
 author:
   name: Peter Delwita
 ---

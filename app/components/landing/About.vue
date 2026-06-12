@@ -23,7 +23,7 @@ onMounted(() => {
       root: 'py-0!',
       container: 'p-0!',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
-      description: 'text-left mt-1 whitespace-pre-line text-sm sm:text-md lg:text-sm text-muted mb-1'
+      description: 'text-left mt-1 whitespace-pre-line text-md sm:text-md lg:text-md text-muted mb-1'
     }"
   />
 </template>

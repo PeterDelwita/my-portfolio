@@ -2,7 +2,6 @@
 title: What I learned from working in a team
 description: Lessons about teamwork and communication I learned, shown through challenges I faced and unique takeaways.
 date: 2026-06-02
-image: "../public/hero/Oil_and_electric_lamp.jpg"
 author:
   name: Peter Delwita
 ---

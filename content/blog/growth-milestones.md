@@ -2,7 +2,6 @@
 title: "Reflecting on My API Project"
 description: Reflection on one of my school projects, how it worked, and why its core concepts matter.
 date: 2026-06-01
-image: "../public/hero/Bee_on_flower.jpg"
 author:
   name: Peter Delwita
 ---

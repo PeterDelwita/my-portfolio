@@ -75,14 +75,6 @@ console.log('TYPE:', typeof page.value.date)
             </span>
           </div>
 
-          <!-- Featured image -->
-          <NuxtImg
-            v-if="page.image"
-            :src="page.image"
-            :alt="page.title"
-            class="rounded-lg w-full h-75 object-cover object-center"
-          />
-
           <!-- Title & description -->
           <h1 class="text-4xl text-center font-medium max-w-3xl mx-auto mt-4">
             {{ page.title }}
